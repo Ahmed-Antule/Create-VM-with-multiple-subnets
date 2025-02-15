@@ -2,6 +2,13 @@
 
 ### Summary
 
+Creating a virtual machine (VM) with multiple subnets involves setting up a network infrastructure where the VM can communicate across different subnets within a virtual network (VNet). This setup is useful for isolating workloads, managing traffic efficiently, and enhancing security.<br>
+Two subnets are:<br>
+i.Finance Department subnet<br>
+ii.IT Department subnet<br>
+
+Two Virtual Machines (VMs) will be deployed, one in each subnet. The goal is to test whether the VMs can communicate with each other despite being in different subnets.
+
 ### Step-1
 
 Select a Virtual Network
@@ -17,17 +24,17 @@ Add two different subnets
 
 ### Step-3
 
-Now,lets create first Vms
-i.Configure the basic Information
-ii.Then go to Networking
-iii.Select the Finance Subnet
+Now,lets create first Vms<br>
+i.Configure the basic Information<br>
+ii.Then go to Networking<br>
+iii.Select the Finance Subnet<br>
 iv.Click on Review and create
 ![Capture5](https://github.com/user-attachments/assets/392fb655-7787-43c4-b77f-a1f68b4f4faa)
 
-Now,lets create second Vms
-i.Configure the basic Information
-ii.Then go to Networking
-iii.Select the IT Subnet
+Now,lets create second Vms<br>
+i.Configure the basic Information<br>
+ii.Then go to Networking<br>
+iii.Select the IT Subnet<br>
 iv.Click on Review and create
 ![Capture6](https://github.com/user-attachments/assets/f870b666-8f1d-40ca-a716-20c1db952c31)
 
